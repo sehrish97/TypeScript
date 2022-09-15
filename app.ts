@@ -1,15 +1,15 @@
 console.log(" time to begin  .");
-const student={
-//      age:number;
-//     skills:string;
-//  name:string;
-// }=
-//{
+let role:[number, string];
+role=[1,'sehr'];
+role.push(2,"tyty")
+console.log(role);
+let Student:{name:string,age:number,skills:string[]}={
     name:'sehrish',
     age:25,
-    skills:['web development','Graphic Designer']
+    skills:['webdevelopment','SEO']
 }
-console.log(student.skills);
+console.log(Student);
+// console.log(student.skills);
 // const names:string[]=[];
 // names.push("sehr");
 // const names: readonly string[]=['sehr'];
@@ -25,9 +25,9 @@ console.log(student.skills);
 //   car.mileage = 3000;
 //   console.log(car);
 
-let myActivities :any[];
-myActivities=["sports",1];
-console.log(myActivities);
-for (const skill of student.skills){
-    console.log(skill.toUpperCase());
-}
+// let myActivities :any[];
+// myActivities=["sports",1];
+// console.log(myActivities);
+// for (const skill of student.skills){
+//     console.log(skill.toUpperCase());
+// }
